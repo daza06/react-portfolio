@@ -21,3 +21,19 @@ input,
 textarea {
   font-family: "Helvetica Neue";
 }
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 80px;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  gap: 10px;
+}
+nav ul li {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
